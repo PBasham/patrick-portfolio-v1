@@ -1,4 +1,12 @@
+/*========================================
+        import dependencies
+========================================*/
 import React from 'react'
+
+/*========================================
+        import styling
+========================================*/
+import "./NavBar.css"
 
 export default function NavBar({ navBarState, toggleActiveNavBtn}) {
 

@@ -19,18 +19,22 @@ export default function App() {
         links: [
             {
                 id: 0,
+                name: "About Me",
                 href: "#content-about",
             },
             {
                 id: 1,
+                name: "Skills",
                 href: "#content-skills",
             },
             {
                 id: 2,
+                name: "Projects",
                 href: "#content-projects",
             },
             {
                 id: 3,
+                name: "Contact",
                 href: "#content-contact",
             },
         ]

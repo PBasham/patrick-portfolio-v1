@@ -2,6 +2,13 @@
 /* font-family: 'Arima', cursive;
 font-family: 'Ubuntu', sans-serif; */
 
+:root {
+    --color-neongreen: rgb(84, 212, 152);
+    --color-accent: rgb(68, 156, 115);
+    --color-accenttext: white;
+    --color-offwhite: rgb(221, 220, 220);
+  }
+
 *,
 *::before,
 *::after {
@@ -13,7 +20,8 @@ body {
     font-family: 'Ubuntu', cursive;
 }
 
-button {
+button,
+a {
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
   }
