@@ -20,6 +20,7 @@ export default function HomePage() {
     return (
         <>
             <HeaderArea />
+            <div className="header-area-bottom-bar"></div>
             <div className="content-wrapper">
                 <AboutMe />
                 <Skills />

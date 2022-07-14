@@ -1,9 +1,9 @@
 .header-area-wrapper {
-    /* display: grid;
-    place-items: center; */
-    /* position: relative; */
+    display: grid;
+    place-items: center;
+    position: relative;
     /* width: 100%; */
-    /* height: (400px, 60vh, 80vh); */
+    height: clamp(200px, 60vh, 80vh);
     color: white;
     background: 
             linear-gradient(-45deg, rgba(66, 66, 66, 0.8), rgba(255,0,0,0) 70.71%),
@@ -20,8 +20,6 @@
     border: 2px dotted red;
 }
 .header-area-bottom-bar {
-    position: absolute;
-    bottom: 0;
     width: 100%;
     height: 50px;
     background: 
