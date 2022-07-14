@@ -10,6 +10,7 @@ export default function HeaderArea() {
                 <h3 id="profile-tagline">Software Engineer...</h3>
                 <img src="public/imgs/profile_pic.jpg" alt="" />
             </div>
+            <div className="animation-div"></div>
         </div>
     )
 }
