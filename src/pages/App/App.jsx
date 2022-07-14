@@ -40,12 +40,17 @@ export default function App() {
     /*========================================
             Functions Start
     ========================================*/
-    
+    const toggleActiveNavBtn = (index) => {
+        setNavBarState({
+          ...navBarState,
+          activeLink: navBarState.links[index]
+        });
+      };
     /* Functions END */
 
     return (
         <div className="App">
-            <NavBar navBarState={navBarState} />
+            <NavBar navBarState={navBarState} toggleActiveNavBtn={toggleActiveNavBtn}/>
             <HomePage />
             <div className="footer-div"></div>
         </div>
