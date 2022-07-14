@@ -13,11 +13,12 @@ import Contact from "../../components/PageContents/Contact/Contact.jsx"
 /*========================================
         Import Styling
 ========================================*/
+import "./HomePage.css"
 import "../../components/PageContents/PageContents.css"
 
 export default function HomePage() {
     return (
-        <div>
+        <>
             <HeaderArea />
             <div className="content-wrapper">
                 <AboutMe />
@@ -25,6 +26,6 @@ export default function HomePage() {
                 <Projects />
                 <Contact />
             </div>
-        </div>
+        </>
     )
 }

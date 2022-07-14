@@ -20,22 +20,22 @@ export default function App() {
             {
                 id: 0,
                 name: "About Me",
-                href: "#content-about",
+                href: "#about",
             },
             {
                 id: 1,
                 name: "Skills",
-                href: "#content-skills",
+                href: "#skills",
             },
             {
                 id: 2,
                 name: "Projects",
-                href: "#content-projects",
+                href: "#projects",
             },
             {
                 id: 3,
                 name: "Contact",
-                href: "#content-contact",
+                href: "#contact",
             },
         ]
     })

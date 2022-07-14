@@ -4,14 +4,16 @@
     align-items: center;
 }
 .content-div {
-    text-align: center;
-    margin: 20px;
+    /* text-align: center; */
+    margin: 30px auto;
     padding: 50px;
-    width: 80vw;
-    height: 40vw;
+    width: clamp(400px, 50vw, 1000px);
+    min-height: 40vh;
     background-color: gray;
+    border-radius: 25px;
 }
 
+/* Skills content */
 .skills-wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -30,3 +32,9 @@
 .skills-wrapper li {
     margin: 1vh;
 }
+/* .href-div {
+    padding: 60px;
+} */
+
+/* about section */
+
