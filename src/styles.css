@@ -4,6 +4,7 @@ font-family: 'Ubuntu', sans-serif; */
 
 :root {
     --color-neongreen: rgb(84, 212, 152);
+    --color-neonblue: rgb(33, 105, 183);
     --color-accent: rgb(68, 156, 115);
     --color-accenttext: white;
     --color-offwhite: rgb(221, 220, 220);
@@ -32,5 +33,5 @@ a {
   }
   
   .footer-div {
-    height: 20vh;
+    height: 40vh;
   }
