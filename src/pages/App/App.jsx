@@ -6,7 +6,6 @@ import { useState } from "react";
         Import pages & components
 ========================================*/
 import HomePage from "../HomePage/HomePage";
-import HeaderArea from "../../components/HeaderArea/HeaderArea";
 /*========================================
         import styles
 ========================================*/
@@ -56,7 +55,6 @@ export default function App() {
     return (
         <div className="App">
             <NavBar navBarState={navBarState} toggleActiveNavBtn={toggleActiveNavBtn}/>
-            <HeaderArea />
             <HomePage />
             <div className="footer-div"></div>
         </div>

@@ -4,10 +4,14 @@
     position: relative;
     width: 100vw;
     height: 80vh;
+    color: white;
     background: 
             linear-gradient(-45deg, rgba(66, 66, 66, 0.8), rgba(255,0,0,0) 70.71%),
             linear-gradient(127deg, rgba(66, 66, 66, 0.8), rgba(0,255,0,0) 70.71%),
             linear-gradient(320deg, rgba(66, 66, 66, 0.8), rgba(0,0,255,0) 70.71%);
+}
+.header-area-wrapper h3 {
+    color: black;
 }
 .header-div {
     padding: 50px;
@@ -20,5 +24,6 @@
     bottom: 0;
     width: 100vw;
     height: 50px;
-    background-color: var(--color-neongreen);
+    background: 
+            linear-gradient(to right, var(--color-neongreen), rgb(141, 255, 187) 50%, var(--color-neongreen));;
 }
