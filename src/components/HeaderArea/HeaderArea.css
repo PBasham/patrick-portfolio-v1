@@ -1,6 +1,7 @@
 .header-area-wrapper {
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     /* width: 100%; */
     height: clamp(200px, 60vh, 80vh);
@@ -18,6 +19,9 @@
     /* width: 80%; */
     /* height: 80%; */
     border: 2px dotted red;
+}
+.header-div h3 {
+    text-align: left;
 }
 .header-area-bottom-bar {
     width: 100%;

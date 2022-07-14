@@ -2,15 +2,27 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    z-index: 1;
 }
 .content-div {
-    /* text-align: center; */
+    position: relative;
     margin: 30px auto;
     padding: 50px;
     width: clamp(400px, 50vw, 1000px);
     min-height: 40vh;
-    background-color: gray;
-    border-radius: 25px;
+    background-color: white;
+    border: 1px solid gray;
+}
+.content-div::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: clamp(400px, 50vw, 1000px);
+    height: 100%;
+    background-color: red;
+    transform: translate(-5px, 5px);
+    z-index: -1;
 }
 
 /* Skills content */
