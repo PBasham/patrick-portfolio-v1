@@ -1,0 +1,12 @@
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content-div {
+    margin: 20px;
+    padding: 50px;
+    width: 80vw;
+    height: 40vw;
+    background-color: blue;
+}
