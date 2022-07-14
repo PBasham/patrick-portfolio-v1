@@ -1,7 +1,9 @@
 import React from 'react'
 
 export default function Projects() {
-  return (
-    <div id="projects" className="content-div">Projects</div>
-  )
+    return (
+        <div id="projects" className="content-div">
+            <h1>Projects</h1>
+        </div>
+    )
 }

@@ -4,9 +4,29 @@
     align-items: center;
 }
 .content-div {
+    text-align: center;
     margin: 20px;
     padding: 50px;
     width: 80vw;
     height: 40vw;
-    background-color: blue;
+    background-color: gray;
+}
+
+.skills-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 30px;
+}
+.skill-list:not(:first-child):not(:last-child) {
+    border: 1px solid black;
+    border-width: 0 2px;
+}
+.skills-wrapper ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+    list-style: none;
+}
+.skills-wrapper li {
+    margin: 1vh;
 }
