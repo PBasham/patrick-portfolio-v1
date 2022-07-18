@@ -29,10 +29,11 @@ export default function Skills() {
                         <ul>
                             <li>Node.js</li>
                             <li>Express</li>
-                            <li>MongoDB</li>
                             <li>RESTful API</li>
+                            <li>MongoDB</li>
+                            <li>SQL</li>
+                            <li>PostgressSQL</li>
                             <li>Python</li>
-                            <li></li>
                         </ul>
                     </div>
                 </div>
