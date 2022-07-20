@@ -1,50 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+/* font-family: 'Audiowide', cursive; */
+:root {
+    --gradient-bar: linear-gradient(to right, var(--color-neongreen), rgb(116, 218, 157) 50%, var(--color-neongreen));
+}
+
+
 .nav-bar {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     position: sticky;
     top: 0;
+    padding: 0 20px;
     height: 50px;
     width: 100%;
-    background: 
-            linear-gradient(to right, var(--color-neongreen), rgb(141, 255, 187) 50%, var(--color-neongreen));
+    background:
+        var(--gradient-bar);
     border: none;
     z-index: 50;
-  }
-  
-  .nav-btn {
+}
+
+.nav-logo {
+    display: grid;
+    place-items: center;
+    width: 50px;
+}
+
+.nav-logo a {
+    font-family: 'Audiowide', cursive;
+    font-size: 2em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-btns {
+    display: flex;
+    margin-left: auto;
+
+}
+
+.nav-btn {
     display: grid;
     place-items: center;
     padding: 5px;
     width: 200px;
     font-size: 1.5em;
-    color: black;
+    color: white;
     border: none;
     background-color: transparent;
     text-decoration: none;
     transition: 250ms ease-out;
-  }
-  .nav-btn:hover {
-    /* background-color: inset 0 -3.25em 0 0 var(--color-accent); */
-    box-shadow: 
-      inset 12px 0 10px -6px rgba(5, 114, 78, 0.97), 
-      inset -12px 0 10px -6px rgba(5, 114, 78, 0.97),
-      inset 0 -3.25em 0 0 var(--color-accent);
-  }
-  
-  .nav-active {
-    box-shadow: 
-      inset 12px 0 10px -6px rgba(5, 114, 78, 0.97), 
-      inset -12px 0 10px -6px rgba(5, 114, 78, 0.97),
-      inset 0 -3.25em 0 0 var(--color-accent);
-  }
-  
-  .nav-btn:not(:first-child) {
-    border-left: 1px solid black;  
-  }
+}
 
-  @media (max-width: 800px) {
+.nav-btn:hover {
+    /* background-color: inset 0 -3.25em 0 0 var(--color-accent); */
+    box-shadow:
+        inset 12px 0 10px -6px rgba(5, 114, 78, 0.97),
+        inset -12px 0 10px -6px rgba(5, 114, 78, 0.97),
+        inset 0 -3.25em 0 0 var(--color-accent);
+}
+
+.nav-active {
+    box-shadow:
+        inset 12px 0 10px -6px rgba(5, 114, 78, 0.97),
+        inset -12px 0 10px -6px rgba(5, 114, 78, 0.97),
+        inset 0 -3.25em 0 0 var(--color-accent);
+}
+
+.nav-btn:not(:first-child) {
+    border-left: 1px solid black;
+}
+
+@media (max-width: 800px) {
     .nav-btn {
         display: none;
     }
-  }
+}

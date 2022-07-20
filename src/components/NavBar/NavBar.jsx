@@ -29,18 +29,23 @@ export default function NavBar({ navBarState, toggleActiveNavBtn}) {
 
   return (
     <div className='nav-bar'>
+        <div className="nav-logo">
+            <a href="#">P</a>
+        </div>
+        <div className="nav-btns">
         {navBarState.links.map((element, index) => (
-        <a
+            <a
             href={element.href}
             key={index}
             className={handleNavStyleChange(index)}
             onClick={() => {
-            handleNavClick(index);
-          }}
-        >
+                handleNavClick(index);
+            }}
+            >
           {element.name}
         </a>
         ))}
+        </div>
     </div>
   )
 }
