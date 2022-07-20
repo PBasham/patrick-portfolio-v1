@@ -1,8 +1,27 @@
+/*========================================
+        import dependencies
+========================================*/
 import React from 'react'
+import { useState, useEffect, useRef } from 'react'
+import { useInView } from 'react-intersection-observer'
 
 export default function AboutMe() {
+
+    const [myElementIsVisible, setMyElementIsVisible] = useState()
+    console.log(myElementIsVisible);
+    const myRef = useRef()
+    useEffect(() => {
+        const observer = new IntersectionObserver((entries) => {
+            const entry = entries[0]
+            setMyElementIsVisible(entry.isIntersecting)
+        })
+        observer.observe(myRef.current)
+    }, [])
+
+
+
     return (
-        <div id="about" className="href-div">
+        <div ref={myRef} id="about" className="href-div">
             <div className="content-div">
                 <h1>About Me</h1>
                 <div className="profile-pic-two-wrapper" >
