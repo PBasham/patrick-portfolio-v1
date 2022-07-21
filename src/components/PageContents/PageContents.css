@@ -12,11 +12,12 @@
     min-height: clamp(20vh,50vh,70vh);
     color: black;
     background: var(--gradient-bar);
-    /* background-color: rgb(126, 220, 148); */
     box-shadow: 
         0 0 10px 1px var(--color-neongreen),
         inset 0 0 5px 1px var(--color-neongreen);
+    transition: 2s ease-in;
 }
+
 .content-div h1 {
     margin-bottom: 20px;
 }
@@ -45,6 +46,10 @@
     place-items: center;
     /* height: 100vh; */
 }
-
+.skills-wrapper .fa,
+.skills-wrapper .fa-brands {
+    font-size: 2em;
+    color: red;
+}
 /* about section */
 

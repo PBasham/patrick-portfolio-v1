@@ -11,7 +11,9 @@ export default function Skills() {
                         <h3>Front-End</h3>
                         <ul>
                             <li>HTML5</li>
+                            <i class="fa fa-html5"></i>
                             <li>CSS3</li>
+                            <i class="fa fa-css3-alt"></i>
                             <li>React</li>
                             <li>JavaScript</li>
 
