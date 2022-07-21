@@ -10,6 +10,7 @@ font-family: 'Ubuntu', sans-serif; */
     --color-accent: rgb(68, 156, 115);
     --color-accenttext: white;
     --color-offwhite: rgb(221, 220, 220);
+    --color-teal: rgb(0,124,124);
 }
 
 *,
@@ -32,9 +33,11 @@ body {
 }
 
 button,
-a {
+a, 
+input,
+textarea,
+li {
     font-family: 'Ubuntu', sans-serif;
-    font-weight: bold;
 }
 
 .footer-div {
