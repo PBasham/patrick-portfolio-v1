@@ -3,8 +3,8 @@ import React from 'react'
 export default function Contact() {
     return (
 
-        <div id="contact" className="href-div">
-            <div className="content-div">
+        // <div id="contact" className="href-div">
+            <div id="contact" className="content-div">
                 <h1>Contact Me</h1>
                 <form className="contact-form" action="https://formsubmit.co/patricktbasham@email.com" method="POST">
                     <input id="name" type="text" name="name" placeholder="name"/>
@@ -13,6 +13,6 @@ export default function Contact() {
                     <button type="submit">Send Email</button>
                 </form>
             </div>
-        </div>
+        // </div>
     )
 }

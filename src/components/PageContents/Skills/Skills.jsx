@@ -4,9 +4,9 @@ import React from 'react'
 
 export default function Skills() {
     return (
-        <div id="skills" className="href-div">
+        // <div id="skills" className="href-div">
 
-            <div className="content-div">
+            <div id="skills" className="content-div">
                 <h1>Skills</h1>
                 <div className="skills-wrapper">
                     <div className="skill-list skills-front-end">
@@ -79,6 +79,6 @@ export default function Skills() {
                     </div>
                 </div>
             </div>
-        </div>
+        // </div>
     )
 }
