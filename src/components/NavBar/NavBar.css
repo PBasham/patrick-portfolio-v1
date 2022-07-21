@@ -21,6 +21,12 @@
     z-index: 50;
 }
 
+.nav-logo,
+.nav-btn {
+    user-select: none;
+    cursor: pointer;
+}
+
 .nav-logo {
     display: grid;
     place-items: center;
@@ -37,7 +43,6 @@
 .nav-btns {
     display: flex;
     margin-left: auto;
-
 }
 
 .nav-btn {
