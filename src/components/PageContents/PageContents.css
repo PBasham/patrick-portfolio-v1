@@ -38,10 +38,10 @@
     margin: 1vh;
 }
 .href-div {
-    /* padding-top: 60px; */
+    padding-top: 60px;
     display: grid;
     place-items: center;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 /* about section */
