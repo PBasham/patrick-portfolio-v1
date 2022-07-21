@@ -11,6 +11,7 @@
 .header-div {
     width: 40vw;
     text-align: left;
+    font-size: 2em;
 }
 .typed-text-div {
     display: flex;
@@ -18,7 +19,6 @@
     align-items: flex-end;
 }
 .typed-text-div h3{
-    margin-right: 4px;
 }
 .typed-text {
     color: var(--color-neongreen);
@@ -37,4 +37,13 @@
     left: 0;
     background-color: white;
     z-index: -1;
+}
+.fa {
+    margin: 10px 15px 0 0;
+    font-size: 1.75em;
+    color: black;
+    text-decoration: none;
+}
+.fa-linkedin {
+    color: rgb(11,103,194);
 }
