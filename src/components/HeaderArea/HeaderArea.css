@@ -9,10 +9,19 @@
     z-index: 2;
 }
 .header-div {
-    
-}
-.header-div h3 {
+    width: 40vw;
     text-align: left;
+}
+.typed-text-div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.typed-text-div h3{
+    margin-right: 4px;
+}
+.typed-text {
+    color: var(--color-neongreen);
 }
 .header-area-bottom-bar {
     width: 100%;
