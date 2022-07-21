@@ -46,10 +46,48 @@
     place-items: center;
     /* height: 100vh; */
 }
-.skills-wrapper .fa,
-.skills-wrapper .fa-brands {
-    font-size: 2em;
-    color: red;
+
+.skill-list h3 {
+    margin-bottom: 20px;
 }
+i {
+    font-size: 3em;
+}
+.icon-text {
+    font-size: 2em;
+}
+
+.fa-html5 {
+    color: rgb(221,75,37);
+}
+.fa-css3-alt {
+    color: rgb(36,75,221);
+}
+.fa-react {
+    color: rgb(95,211,243);
+}
+.fa-js {
+    color: rgb(228,208,75);
+}
+.fa-git-alt {
+    color: rgb(228,76,48);
+}
+.fa-node {
+    color: rgb(131,187,0);
+}
+.fa-cloud {
+    color: rgb(0,172,218);
+}
+.fa-leaf {
+    color: rgb(78,162,72);
+}
+.fa-database {
+    color: rgb(208,111,47);
+}
+.fa-python {
+    color: rgb(53,104,150);
+}
+
+
 /* about section */
 
