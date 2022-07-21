@@ -14,11 +14,11 @@ export default function NavBar({ navBarState, toggleActiveNavBtn}) {
             Functions Start
     ========================================*/
     const handleNavStyleChange = (index) => {
-        if (navBarState.links[index] === navBarState.activeLink) {
-          return "nav-btn nav-active"
-        } else {
+        // if (navBarState.links[index] === navBarState.activeLink) {
+        //   return "nav-btn nav-active"
+        // } else {
           return "nav-btn"
-        }
+        // }
       };
 
       const handleNavClick = (index) => {

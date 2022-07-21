@@ -2,6 +2,7 @@
         Import dependencies
 ========================================*/
 import React from 'react'
+import { useInView } from 'react-intersection-observer'
 /*========================================
         import pages & components
 ========================================*/
@@ -17,11 +18,13 @@ import "./HomePage.css"
 import "../../components/PageContents/PageContents.css"
 
 export default function HomePage() {
+const { ref: myRef, inView: myElementIsVisible } = useInView()
+
     return (
         <>
             <HeaderArea />
             {/* <div className="header-area-bottom-bar"></div> */}
-            <div className="content-wrapper">
+            <div ref={myRef} className="content-wrapper">
                 <AboutMe />
                 <Skills />
                 <Projects />

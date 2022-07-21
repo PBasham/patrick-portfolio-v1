@@ -4,8 +4,8 @@
     align-items: center;
     position: relative;
     /* width: 100%; */
-    height: clamp(200px, 60vh, 80vh);
-    color: white;
+    height: 100vh;
+    color: black;
     z-index: 2;
 }
 .header-div {
@@ -13,7 +13,6 @@
 }
 .header-div h3 {
     text-align: left;
-    color: black;
 }
 .header-area-bottom-bar {
     width: 100%;
@@ -27,9 +26,6 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background: 
-            linear-gradient(-45deg, rgba(66, 66, 66, 0.8), rgba(255,0,0,0) 70.71%),
-            linear-gradient(127deg, rgba(66, 66, 66, 0.8), rgba(0,255,0,0) 70.71%),
-            linear-gradient(320deg, rgba(66, 66, 66, 0.8), rgba(0,0,255,0) 70.71%);
+    background-color: white;
     z-index: -1;
 }

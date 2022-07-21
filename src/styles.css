@@ -4,11 +4,12 @@ font-family: 'Ubuntu', sans-serif; */
 
 :root {
     --color-neongreen: rgb(84, 212, 152);
-    --color-neonblue: rgb(33, 105, 183);
+    --color-neonbluefade: rgba(20, 81, 146, 0.791);
+    --color-neonblue: rgb(11, 54, 100);
     --color-accent: rgb(68, 156, 115);
     --color-accenttext: white;
     --color-offwhite: rgb(221, 220, 220);
-  }
+}
 
 *,
 *::before,
@@ -17,21 +18,24 @@ font-family: 'Ubuntu', sans-serif; */
     margin: 0;
     padding: 0;
 }
+
 .App {
     font-family: sans-serif;
     text-align: center;
     min-width: 400px;
-  }
+}
+
 body {
     font-family: 'Ubuntu', cursive;
+    color: white;
 }
 
 button,
 a {
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
-  }
-  
-  .footer-div {
+}
+
+.footer-div {
     height: 40vh;
-  }
+}
