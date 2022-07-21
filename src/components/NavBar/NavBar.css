@@ -2,7 +2,7 @@
 
 /* font-family: 'Audiowide', cursive; */
 :root {
-    --gradient-bar: linear-gradient(to right, var(--color-neongreenfade), rgba(116, 218, 157, 0.761) 50%, var(--color-neongreenfade));
+    --gradient-bar: linear-gradient(to right, var(--color-neonblue), rgba(24, 94, 135, 0.761) 50%, var(--color-neonblue));
 }
 
 
@@ -61,8 +61,8 @@
 .nav-btn:hover {
     /* background-color: inset 0 -3.25em 0 0 var(--color-accent); */
     box-shadow:
-        inset 12px 0 10px -6px rgba(5, 114, 78, 0.97),
-        inset -12px 0 10px -6px rgba(5, 114, 78, 0.97),
+        inset 12px 0 10px -6px rgba(87, 90, 116, 0.97),
+        inset -12px 0 10px -6px rgba(87, 90, 116, 0.97),
         inset 0 -3.25em 0 0 var(--color-accent);
 }
 

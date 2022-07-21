@@ -4,98 +4,138 @@
     align-items: center;
     z-index: 1;
 }
+
 .content-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     position: relative;
     margin: auto;
     /* margin-top: 120px; */
     padding: 50px;
     width: 100vw;
-    min-height: clamp(20vh,50vh,70vh);
-    color: black;
-    background-color: rgb(213, 239, 255);
-    transition: 2s ease-in;
-}
-.content-div:nth-of-type(2n) {
-    color: white;
+    min-height: clamp(20vh, 50vh, 70vh);
+    color: var(--color-lightblue);
     background-color: rgb(10, 21, 91);
 }
+
+.content-div:nth-of-type(2n) {
+    color: rgb(23, 23, 126);
+    background-color: var(--color-lightblue);
+}
+
 .content-div h1 {
     margin-bottom: 40px;
+    color: var(--color-lightblue);
+    font-size: 3em;
+    font-weight: bold;
 }
-/* Skills content */
-.skills-wrapper {
+
+.content-div:nth-of-type(2n) h1 {
+    color: rgb(23, 23, 126);
+}
+/*----------------------------------------
+        About content
+-----------------------------------------*/
+.about-innercontent-wrapper {
+    display: grid;
+    grid-template-columns: 30vw 2fr;
+    min-height: 30vw;
+}
+.content-about {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    padding: 0 30px;
+    width: 60vw;
+}
+.about-picture {
+    width: 100%;
+    height: 100%;
+    background-color: orange;
+}
+/*----------------------------------------
+        Skills content
+-----------------------------------------*/
+
+.skills-wrapper {
+    display: flex;
+    flex-direction: column;
     grid-template-columns: repeat(3, 1fr);
     padding-top: 30px;
 }
-/* .skill-list:not(:first-child):not(:last-child) {
-    border: 1px solid black;
-    border-width: 0 2px;
-} */
 .skills-wrapper ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 30px 0 30px 0;
+    margin: 0 0 30px 0;
     width: 80vw;
+    font-weight: bold;
     list-style: none;
 }
+
 .skills-wrapper li {
     display: flex;
     flex-direction: column;
     margin: 1vh;
 }
+
 .href-div {
     /* padding-top: 60px; */
     display: grid;
     place-items: center;
     /* height: 100vh; */
 }
+
 i {
     margin-bottom: 5px;
     font-size: 2em;
 }
+
 .fa-html5 {
-    color: rgb(221,75,37);
+    color: rgb(221, 75, 37);
 }
+
 .fa-css3-alt {
-    color: rgb(36,75,221);
+    color: rgb(36, 75, 221);
 }
+
 .fa-react {
-    color: rgb(95,211,243);
+    color: rgb(95, 211, 243);
 }
+
 .fa-js {
-    color: rgb(228,208,75);
+    color: rgb(228, 208, 75);
 }
+
 .fa-git-alt {
-    color: rgb(228,76,48);
+    color: rgb(228, 76, 48);
 }
+
 .fa-node {
-    color: rgb(131,187,0);
+    color: rgb(131, 187, 0);
 }
+
 .fa-cloud {
-    color: rgb(0,172,218);
+    color: rgb(0, 172, 218);
 }
+
 .fa-leaf {
-    color: rgb(78,162,72);
+    color: rgb(78, 162, 72);
 }
+
 .fa-database {
-    color: rgb(208,111,47);
+    color: rgb(208, 111, 47);
 }
+
 .fa-python {
-    color: rgb(53,104,150);
+    color: rgb(53, 104, 150);
 }
-
-
-/* about section */
-.about-picture {
-    background: ;
-}
-
-
-/* Contact Form*/
+/*----------------------------------------
+        Contact Form
+-----------------------------------------*/
 .contact-form {
     display: flex;
     flex-direction: column;
@@ -104,6 +144,7 @@ i {
     margin: 0 auto;
     width: 60vw;
 }
+
 .contact-form input[type="text"],
 .contact-form input[type="email"],
 .contact-form textarea {
@@ -117,6 +158,7 @@ i {
     outline: none;
     transition: 250ms ease-in-out;
 }
+
 .contact-form input:focus,
 .contact-form textarea:focus {
     box-shadow: inset 0 0 3px 1px var(--color-teal);
@@ -131,6 +173,7 @@ i {
     background-color: var(--gradient-bar);
     transition: 500ms ease-in-out;
 }
+
 .contact-form button:hover,
 .contact-form button:focus {
     background-color: var(--color-teal);

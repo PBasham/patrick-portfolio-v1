@@ -17,7 +17,14 @@ export default function HeaderArea() {
                     <h3 className="typed-text">
                         <Typewriter
                             options={{
-                                strings: ["am a software engineer.", "am always looking to learn more.", "am highly motivated.", `love to code!`],
+                                strings: [
+                                    "am a software engineer.",
+                                    "thrive to optimize.",
+                                    "am always looking to learn more.",
+                                    "am highly motivated.",
+                                    "love to code!",
+                                    "am a hobbyist game dev.",
+                                ],
                                 autoStart: true,
                                 loop: true,
                             }}
