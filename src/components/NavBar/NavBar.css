@@ -2,7 +2,7 @@
 
 /* font-family: 'Audiowide', cursive; */
 :root {
-    --gradient-bar: linear-gradient(to right, var(--color-neongreen), rgb(116, 218, 157) 50%, var(--color-neongreen));
+    --gradient-bar: linear-gradient(to right, var(--color-neongreenfade), rgba(116, 218, 157, 0.761) 50%, var(--color-neongreenfade));
 }
 
 
