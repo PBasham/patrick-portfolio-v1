@@ -28,7 +28,7 @@ export default function HeaderArea() {
                     <a id="link-github" className="profile-link" href="https://github.com/PBasham" target="_blank">
                         <i class="fa fa-github"></i>
                     </a>
-                    <a id="link-linkedin" className="profile-link" href="https://github.com/PBasham" target="_blank">
+                    <a id="link-linkedin" className="profile-link" href="https://www.linkedin.com/in/patrickbasham/" target="_blank">
                     <i class="fa fa-linkedin"></i>
                     </a>
                 </div>
