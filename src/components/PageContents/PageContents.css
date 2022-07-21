@@ -10,8 +10,8 @@
     padding: 50px;
     width: 100vw;
     min-height: clamp(20vh,50vh,70vh);
-    color: white;
-    background-color: var(--color-neongreen);
+    color: black;
+    background-color: var(--color-neongreenfade);
     border: 1px solid var(--color-neongreen);
     box-shadow: 0 0 10px 1px var(--color-neongreen);
 }
