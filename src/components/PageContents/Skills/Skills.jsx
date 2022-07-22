@@ -13,19 +13,19 @@ export default function Skills() {
                         <h3>Front-End</h3>
                         <ul>
                             <li>
-                                <i class="fa-brands fa-css3-alt"></i>
+                                <i className="fa-brands fa-css3-alt"></i>
                                 CSS3
                             </li>
                             <li>
-                                <i class="fa-brands fa-html5"></i>
+                                <i className="fa-brands fa-html5"></i>
                                 HTML5
                             </li>
                             <li>
-                                <i class="fa-brands fa-js"></i>
+                                <i className="fa-brands fa-js"></i>
                                 JavaScript
                             </li>
                             <li>
-                                <i class="fa-brands fa-react"></i>
+                                <i className="fa-brands fa-react"></i>
                                 React
                             </li>
                         </ul>
@@ -34,11 +34,11 @@ export default function Skills() {
                         <h3>Tools</h3>
                         <ul>
                             <li>
-                                <i class="fa-brands fa-git-alt"></i>
+                                <i className="fa-brands fa-git-alt"></i>
                                 Git
                             </li>
                             <li>
-                                <i class="devicon-heroku-original colored"></i>
+                                <i className="devicon-heroku-original colored"></i>
                                 Heroku
                             </li>
                         </ul>
@@ -47,31 +47,31 @@ export default function Skills() {
                         <h3>Back-End</h3>
                         <ul>
                             <li>
-                                <i class="fa-brands fa-node"></i>
+                                <i className="fa-brands fa-node"></i>
                                 Node.js
                             </li>
                             <li>
-                                <i class="devicon-express-original"></i>
+                                <i className="devicon-express-original"></i>
                                 Express
                             </li>
                             <li>
-                                <i class="fa-solid fa-cloud"></i>
+                                <i className="fa-solid fa-cloud"></i>
                                 RESTful API
                             </li>
                             <li>
-                                <i class="fa-solid fa-leaf"></i>
+                                <i className="fa-solid fa-leaf"></i>
                                 MongoDB
                             </li>
                             <li>
-                                <i class="fa-solid fa-database"></i>
+                                <i className="fa-solid fa-database"></i>
                                 SQL
                             </li>
                             <li>
-                                <i class="devicon-postgresql-plain-wordmark colored"></i>
+                                <i className="devicon-postgresql-plain-wordmark colored"></i>
                                 PostgreSQL
                             </li>
                             <li>
-                                <i class="fa-brands fa-python"></i>
+                                <i className="fa-brands fa-python"></i>
                                 Python
                             </li>
                         </ul>

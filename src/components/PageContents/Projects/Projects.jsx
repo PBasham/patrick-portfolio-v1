@@ -14,7 +14,15 @@ export default function Projects() {
                 title: "Dungeon Fighter",
                 img: "https://github.com/PBasham/Dungeon-fighter/blob/main/imgs/ReadMe/wireframe_startScreen.png?raw=true",
                 description: "",
-                gitHubLink: "https://github.com/PBasham/Dungeon-fighter",
+                collaboration: false,
+                team: [
+                    {
+                        id: 0,
+                        name: "",
+                        githubLink: "",
+                    },
+                ],
+                githubLink: "https://github.com/PBasham/Dungeon-fighter",
                 deploymentLink: "https://pbasham.github.io/Dungeon-fighter/",
             },
             {
@@ -23,7 +31,15 @@ export default function Projects() {
                 title: "Pokemon-Tracker",
                 img: "https://github.com/PBasham/Pokemon-Tracker/blob/main/imgs/readme/PT-MainPage.png?raw=true",
                 description: "",
-                gitHubLink: "https://github.com/PBasham/Pokemon-Tracker",
+                collaboration: false,
+                team: [
+                    {
+                        id: 0,
+                        name: "",
+                        githubLink: "",
+                    },
+                ],
+                githubLink: "https://github.com/PBasham/Pokemon-Tracker",
                 deploymentLink: false,
             },
             {
@@ -31,8 +47,21 @@ export default function Projects() {
                 readyForPortfolio: true,
                 title: "LeetRigs",
                 img: "https://github.com/PBasham/mern-project-3/blob/main/public/imgs/readMe/header-img.png?raw=true",
-                description: "My team and I build out an e-commerce website featuring computer rigs and equipment. I was the lead for this project managing the Github branches, handling the styling as well as...",
-                gitHubLink: "https://github.com/PBasham/mern-project-3",
+                description: "My team and I build out an e-commerce website featuring computer rigs and equipment. I was the lead for this project managing the Github branches, handling the styling and handling aspect of both the front and back end.",
+                collaboration: true,
+                team: [
+                    {
+                        id: 0,
+                        name: "Bobby Romano",
+                        githubLink: "https://github.com/raromano92",
+                    },
+                    {
+                        id: 1,
+                        name: "Ian De Leon",
+                        githubLink: "https://github.com/IanDLeon",
+                    },
+                ],
+                githubLink: "https://github.com/PBasham/mern-project-3",
                 deploymentLink: false,
             },
         ]
@@ -44,23 +73,14 @@ export default function Projects() {
         <div id="projects" className="content-div">
             <h1>Projects</h1>
             <div className="project-card-wrapper">
-                {projectsState.projectsList.map((element => (
-                    <ProjectCard 
-                        key={element.id}
-                        title={element.title}
-                        img={element.img}
-                        description={element.description}
-                        gitHubLink={element.gitHubLink}
-                        deploymentLink={element.deploymentLink}
+                {projectsState.projectsList.map((project => (
+                    <ProjectCard
+                        key={project.id}
+                        project={project}
                     />
 
                 )))
                 }
-                {/* <ProjectCard />
-                <ProjectCard />
-                <ProjectCard />
-                <ProjectCard />
-                <ProjectCard /> */}
             </div>
         </div>
         // </div>

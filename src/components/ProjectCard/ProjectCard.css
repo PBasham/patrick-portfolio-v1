@@ -29,7 +29,7 @@
 
 .project-card-detail {
     grid-row: 2 / 3;
-    padding: 5px 0 10px 0;
+    padding: 5px  10px ;
 }
 
 .project-card-title {
@@ -39,6 +39,9 @@
 
 .project-card-description {
     padding: 20px;
+    text-align: left;
+    font-size: 1.2em;
+
 }
 
 /*----------------------------------------
@@ -68,4 +71,19 @@
 .card-link:hover,
 .card-link:focus {
     background-color: rgb(71, 71, 182);
+}
+.collaborators {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0 20px;
+}
+
+.collaborators ul {
+    list-style: none;
+}
+.collaborators li {
+    display: inline;
+}
+.collaborators a {
 }
