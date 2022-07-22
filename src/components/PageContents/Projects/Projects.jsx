@@ -24,6 +24,7 @@ import ProjectCard from "../../ProjectCard/ProjectCard.jsx"
 <i className="fa-solid fa-database"></i>
 <i className="devicon-postgresql-plain-wordmark colored"></i>
 <i className="fa-brands fa-python"></i>
+<i class="devicon-django-plain"></i>
 */
 
 export default function Projects() {
