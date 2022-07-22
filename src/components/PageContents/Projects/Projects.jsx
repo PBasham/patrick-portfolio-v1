@@ -15,6 +15,7 @@ import ProjectCard from "../../ProjectCard/ProjectCard.jsx"
 <i className="fa-brands fa-js"></i>
 <i className="fa-brands fa-react"></i>
 <i className="fa-brands fa-git-alt"></i>
+<i class="devicon-github-original colored"></i>
 <i className="devicon-heroku-original colored"></i>
 <i className="fa-brands fa-node"></i>
 <i className="devicon-express-original"></i>
@@ -88,7 +89,7 @@ export default function Projects() {
                     <i className="fa-brands fa-html5"></i>,
                     <i className="fa-brands fa-js"></i>,
                     <i className="fa-brands fa-react"></i>,
-                    <i className="fa-brands fa-git-alt"></i>,
+                    <i class="devicon-github-original colored"></i>,
                     <i className="fa-solid fa-cloud"></i>,
                     <i className="devicon-mongodb-plain colored"></i>,
                 ],
