@@ -13,22 +13,21 @@ export default function Skills() {
                         <h3>Front-End</h3>
                         <ul>
                             <li>
-                                <i class="fa-brands fa-html5"></i>
-                                HTML5
-                            </li>
-                            <li>
                                 <i class="fa-brands fa-css3-alt"></i>
                                 CSS3
                             </li>
                             <li>
-                                <i class="fa-brands fa-react"></i>
-                                React
+                                <i class="fa-brands fa-html5"></i>
+                                HTML5
                             </li>
                             <li>
                                 <i class="fa-brands fa-js"></i>
                                 JavaScript
                             </li>
-
+                            <li>
+                                <i class="fa-brands fa-react"></i>
+                                React
+                            </li>
                         </ul>
                     </div>
                     <div className="skill-list skills-tools">
@@ -69,7 +68,7 @@ export default function Skills() {
                             </li>
                             <li>
                                 <i class="devicon-postgresql-plain-wordmark colored"></i>
-                                PostgressSQL
+                                PostgreSQL
                             </li>
                             <li>
                                 <i class="fa-brands fa-python"></i>

@@ -1,0 +1,62 @@
+.project-card {
+    display: grid;
+    grid-template-rows: 50% 40% 10%;
+    margin: 20px;
+    height: 550px;
+    width: 600px;
+    color: var(--color-neonblue);
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 0 5px 1px silver;
+    overflow: hidden;
+}
+
+.project-card-img {
+    grid-row: 1 / 2;
+    border-bottom: 2px solid black;
+    overflow: hidden;
+}
+
+.project-card-img img{
+    width: 100%;
+}
+
+.project-card-detail {
+    grid-row: 2 / 3;
+    padding: 5px 0 10px 0;
+}
+
+.project-card-title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.project-card-description {
+    padding: 20px;
+}
+
+/*----------------------------------------
+        github detail
+-----------------------------------------*/
+.github-detail {
+    grid-row: 3 / 4;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    padding: 10px;
+}
+.card-link,
+.card-link2 {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    color: white;
+    border-radius: 15px;
+    background-color: var(--color-neonblue);
+    text-decoration: none;
+}
+.card-link2 {
+}

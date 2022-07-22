@@ -134,6 +134,17 @@ i {
     color: rgb(53, 104, 150);
 }
 /*----------------------------------------
+        Projects content
+-----------------------------------------*/
+.project-card-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+/*----------------------------------------
         Contact Form
 -----------------------------------------*/
 .contact-form {
