@@ -1,8 +1,8 @@
 .project-card {
-    display: grid;
-    grid-template-rows: 50% 40% 10%;
+    display: flex;
+    flex-direction: column;
     margin: 20px;
-    height: 550px;
+    min-height: 300px;
     width: 600px;
     color: var(--color-neonblue);
     border: none;
@@ -18,7 +18,7 @@
 }
 
 .project-card-img {
-    grid-row: 1 / 2;
+    height: 250px;
     border-bottom: 2px solid black;
     overflow: hidden;
 }
@@ -28,20 +28,18 @@
 }
 
 .project-card-detail {
-    grid-row: 2 / 3;
-    padding: 5px  10px ;
+    padding: 10px  30px 0 30px;
 }
 
 .project-card-title {
     font-size: 2em;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .project-card-description {
-    padding: 20px;
     text-align: left;
     font-size: 1.2em;
-
 }
 
 /*----------------------------------------
@@ -51,12 +49,11 @@
     grid-row: 3 / 4;
     display: flex;
     justify-content: space-between;
-    align-items:flex-end;
+    align-items:flex-start;
     padding: 10px;
 }
 .card-link{
     display: flex;
-    /* flex-direction: row; */
     justify-content: center;
     align-items: center;
     width: 200px;
@@ -70,20 +67,31 @@
 }
 .card-link:hover,
 .card-link:focus {
-    background-color: rgb(71, 71, 182);
+    color: var(--color-neonblue);
+    background-color: var(--color-lightblue);
 }
-.collaborators {
+.project-card-collaborators {
     display: flex;
-    flex-direction: row;
     align-items: flex-end;
-    padding: 0 20px;
+    margin-top: 20px;
 }
 
-.collaborators ul {
+.project-card-collaborators ul {
     list-style: none;
 }
-.collaborators li {
+.project-card-collaborators li {
     display: inline;
 }
-.collaborators a {
+
+.project-card-technologies {
+    margin-top: 20px;
+    text-align: left;
+}
+.project-card-technologies ul {
+    list-style: none;
+    padding-top: 10px;
+}
+.project-card-technologies li {
+    display: inline;
+    margin-right: 10px;
 }
