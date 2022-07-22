@@ -5,10 +5,16 @@
     height: 550px;
     width: 600px;
     color: var(--color-neonblue);
+    border: none;
     border-radius: 15px;
     background-color: white;
-    box-shadow: 0 0 5px 1px silver;
+    box-shadow: 0 0 20px 1px silver;
     overflow: hidden;
+    transition: 250ms ease-in;
+}
+.project-card:hover {
+    box-shadow: 0 0 20px 1px blue;
+    transform: scale(1.01);
 }
 
 .project-card-img {
@@ -45,8 +51,7 @@
     align-items:flex-end;
     padding: 10px;
 }
-.card-link,
-.card-link2 {
+.card-link{
     display: flex;
     /* flex-direction: row; */
     justify-content: center;
@@ -54,9 +59,13 @@
     width: 200px;
     height: 50px;
     color: white;
+    border: 3px solid var(--color-neonblue);
     border-radius: 15px;
     background-color: var(--color-neonblue);
     text-decoration: none;
+    transition: 250ms ease-in-out;
 }
-.card-link2 {
+.card-link:hover,
+.card-link:focus {
+    background-color: rgb(71, 71, 182);
 }

@@ -22,7 +22,7 @@ export default function ProjectCard(props) {
                 <i class="devicon-github-original"></i>
            Github Repo
            </a>
-           { props.deploymentLink ?  <a className="card-link2" href={props.gitHubLink} target="_blank">Deployment</a> 
+           { props.deploymentLink ?  <a className="card-link" href={props.deploymentLink} target="_blank">Deployment</a> 
            : 
             null
            }
