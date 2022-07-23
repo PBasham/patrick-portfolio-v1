@@ -25,7 +25,7 @@
 }
 .profile-img {
     margin-right: 40px;
-    width: 25%;
+    width: clamp(300px,25%,500px);
     aspect-ratio: 1;
     border-radius: 50%;
     background-image: url("../../../public/imgs/profile_pic.jpg");
