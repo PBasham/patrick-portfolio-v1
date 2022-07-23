@@ -228,3 +228,25 @@ i {
         /* color: white;  */
     }
   }
+
+  @media (max-width: 800px) {
+    .content-wrapper {
+        width: 100vw;
+    }
+    .content-div {
+        /* padding: 20px 0; */
+    }
+    .about-innercontent-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content-about {
+        padding: 10px 0;
+        width: 80vw;
+    }
+    .about-picture {
+        width: 250px;
+        aspect-ratio: 1;
+    }
+}

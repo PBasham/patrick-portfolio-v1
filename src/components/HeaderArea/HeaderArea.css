@@ -17,8 +17,8 @@
 .typed-text-div {
     position: absolute;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
+    /* justify-content: flex-start;
+    align-items: flex-end; */
 }
 .typed-text {
     color: var(--color-neonbluefade);
@@ -56,4 +56,14 @@
 }
 .fa-linkedin {
     color: rgb(11,103,194);
+}
+
+@media (max-width: 800px) {
+    .header-area-wrapper {
+        flex-direction: column;
+    }
+    .header-div {
+        width: 80vw;
+    }
+
 }
