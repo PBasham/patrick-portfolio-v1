@@ -47,24 +47,16 @@ export default function Skills() {
                     <h3>Back-End</h3>
                     <ul>
                         <li>
-                            <i className="fa-brands fa-node"></i>
-                            Node.js
-                        </li>
-                        <li>
                             <i className="devicon-express-original"></i>
                             Express
-                        </li>
-                        <li>
-                            <i className="fa-solid fa-cloud"></i>
-                            RESTful API
                         </li>
                         <li>
                             <i className="devicon-mongodb-plain colored"></i>
                             MongoDB
                         </li>
                         <li>
-                            <i className="fa-solid fa-database"></i>
-                            SQL
+                            <i className="fa-brands fa-node"></i>
+                            Node.js
                         </li>
                         <li>
                             <i className="devicon-postgresql-plain-wordmark colored"></i>
@@ -73,6 +65,14 @@ export default function Skills() {
                         <li>
                             <i className="fa-brands fa-python"></i>
                             Python
+                        </li>
+                        <li>
+                            <i className="fa-solid fa-cloud"></i>
+                            RESTful API
+                        </li>
+                        <li>
+                            <i className="fa-solid fa-database"></i>
+                            SQL
                         </li>
                     </ul>
                 </div>
