@@ -65,5 +65,7 @@
     .header-div {
         width: 80vw;
     }
-
+    .profile-img {
+        margin: 0 auto;
+    }
 }
