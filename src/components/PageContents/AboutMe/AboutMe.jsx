@@ -20,7 +20,7 @@ export default function AboutMe() {
                 <div className="about-picture">
                 </div>
                 <div className="content-about">
-                    <p>I'm a Software Engineer based in New York with a background in electrical construction. After almost 6 years in the electrical industry—from the warehouse to the field then the office—I finally took a leap to leave my job and go towards something I am truly passionate about. I'm always trying to find more efficient ways to do things and always welcome the challenge of learning something new. Becoming a software engineer has given me the opportunity to always learn and advance my skills to overcome challenges that come my way.</p>
+                    <p>I'm a Software Engineer based in New York with a background in electrical construction. After almost 6 years in the electrical industry—from the warehouse to the field then the office—I finally took a leap to leave my job and go towards something I am truly passionate about. I'm always trying to find more efficient ways to do things and always welcome the challenge of learning something new. Becoming a software engineer has given me the opportunity to always learn and advance my skills to overcome challenges that come my way. I believe in the power of code and collaboration to find a better way to do things.</p>
                 </div>
             </div>
         </div>
