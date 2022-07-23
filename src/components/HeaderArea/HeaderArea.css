@@ -12,7 +12,7 @@
     position: relative;
     width: 40vw;
     text-align: left;
-    font-size: 2em;
+    font-size: clamp(24px, 2vw, 2em);
 }
 .typed-text-div {
     position: absolute;
