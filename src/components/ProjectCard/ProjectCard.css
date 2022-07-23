@@ -96,3 +96,12 @@
     display: inline;
     margin-right: 10px;
 }
+@media (max-width: 800px) {
+    .project-card {
+        margin: 20px 0;
+    }
+    .project-card-collaborators {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
