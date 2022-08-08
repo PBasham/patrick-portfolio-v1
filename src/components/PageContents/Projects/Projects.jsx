@@ -35,8 +35,8 @@ export default function Projects() {
                 id: 0,
                 readyForPortfolio: true,
                 title: "LeetRigs [Full-Stack]",
-                img: "https://github.com/PBasham/mern-project-3/blob/main/public/imgs/readMe/header-img.png?raw=true",
-                description: "This is my third project from my bootcamp and was my first time working with a team using github to design a website and it's functionality. My team and I build out an e-commerce website featuring computer rigs and equipment. I was the lead for this project managing the Github branches, handling the styling and handling aspect of both the front and back end.",
+                img: "https://github.com/PBasham/virtual-realty/raw/main/public/imgs/readme/readme-homepage.png",
+                description: "This is my CAPSTONE project from my bootcamp.",
                 technologies: [
                     <i className="fa-brands fa-html5"></i>,
                     <i className="fa-brands fa-css3-alt"></i>,
