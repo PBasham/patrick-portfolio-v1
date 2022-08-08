@@ -34,7 +34,7 @@ export default function Projects() {
             {
                 id: 0,
                 readyForPortfolio: true,
-                title: "LeetRigs [Full-Stack]",
+                title: "VirtualRealty [Full-Stack]",
                 img: "https://github.com/PBasham/virtual-realty/raw/main/public/imgs/readme/readme-homepage.png",
                 description: "This is my CAPSTONE project from my bootcamp.",
                 technologies: [
